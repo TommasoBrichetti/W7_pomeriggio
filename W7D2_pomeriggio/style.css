@@ -1,0 +1,6 @@
+table > tr{
+    display: none;
+}
+.active{
+    display: block;
+}
