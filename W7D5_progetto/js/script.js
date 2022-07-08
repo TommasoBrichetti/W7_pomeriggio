@@ -87,6 +87,6 @@ let postOption = {
     },
     body: JSON.stringify({ name: document.getElementById('name').value, email: document.getElementById('name').value, gender: selectGender })
 }
-function addUser(id) {
-    fetch("http://localhost:3000/users", postOptions)
-}
+// function addUser(id) {
+//     fetch("http://localhost:3000/users", postOptions)
+// }
