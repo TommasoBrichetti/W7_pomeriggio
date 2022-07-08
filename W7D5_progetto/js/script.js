@@ -63,7 +63,10 @@ function showAddUser() {
 
 nav.addEventListener('click', showAddUser)
 
-//! update json
+
+
+//! update json  
+//todo controllare se funziona
 
 const radioButtons = document.querySelectorAll('input[name="gender"]');
 btn.addEventListener("click", () => {
