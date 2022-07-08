@@ -160,3 +160,11 @@ main{
 .container .box:nth-child(odd):after{
     background: linear-gradient(315deg,#4dff02,#00d0ff);  
 }
+
+footer{
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
+    box-shadow: 5px 0px 10px red;
+    width: 100%;
+    height: 15vh;
+    content: '';
+}
